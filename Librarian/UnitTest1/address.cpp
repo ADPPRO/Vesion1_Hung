@@ -42,7 +42,7 @@ string address::getSoNha()
 
 void address::input()
 {
-	cin.ignore();
+	cin.ignore();// bo qua bo nho dem
 	cout << "enter tp:" << endl; getline(cin, city);
 	cout << "enter quan:" << endl; getline(cin, quan);
 	cout << "enter phuong:" << endl; getline(cin, phuong);
@@ -78,7 +78,7 @@ void address::setTo(int to)
 {
 	this->to = to;
 }
-
+// da sua sang to
 void address::setSoNha(string string)
 {
 	this->sonha = string;

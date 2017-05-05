@@ -20,7 +20,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{E2F0068C-C272-4F17-BCB9-C11C7F96D200}</ProjectGuid>
+    <ProjectGuid>{3F28EC82-A5C0-4C95-86E6-6D324E7F9789}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>Librarian</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
@@ -138,10 +138,14 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="address.h" />
+    <ClInclude Include="Date.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="address.cpp" />
+    <ClCompile Include="Date.cpp" />
     <ClCompile Include="Librarian.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

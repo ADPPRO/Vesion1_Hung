@@ -1,0 +1,5 @@
+﻿  unittest1.cpp
+c:\users\dell\source\repos\vesion1_hung\librarian\unittest2\unittest1.cpp(10): error C2668: 'address::address': ambiguous call to overloaded function
+  c:\users\dell\source\repos\vesion1_hung\librarian\unittest2\address.h(12): note: could be 'address::address(std::string)'
+  c:\users\dell\source\repos\vesion1_hung\librarian\unittest2\address.h(10): note: or       'address::address(void)'
+  c:\users\dell\source\repos\vesion1_hung\librarian\unittest2\unittest1.cpp(10): note: while trying to match the argument list '()'
